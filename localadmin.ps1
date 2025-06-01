@@ -7,4 +7,4 @@ Param(
 )
 
 New-LocalUser $User -Password $Password
-net group "Administrators" $User /ADD
+net localgroup "Administrators" $User /ADD
