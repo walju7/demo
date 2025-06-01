@@ -1,6 +1,6 @@
 Param(
     [Parameter(Mandatory=$False)]
-    [string]$User = "totallytrustworthyuser",
+    [string]$User = "totallytrustworthyadm",
 
     [Parameter(Mandatory=$False)]
     [Security.SecureString]$Password = ("L0calAdmin!!" | ConvertTo-SecureString -AsPlainText -Force)
